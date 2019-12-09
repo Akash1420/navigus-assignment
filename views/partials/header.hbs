@@ -1,0 +1,30 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Beans Love Beers</a>
+        </div>
+
+        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <a href="/shopping-cart/">
+                    <i class="fa fa-star" aria-hidden="true"></i> Favourites
+                    <span class="badge">{{session.cart.totalQty}}</span>
+                  </a>
+                </li>
+                <li>
+                    <a href="/" ><i class="fa fa-ship" aria-hidden="true"></i> Home <span class="badge"></span></a>
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
